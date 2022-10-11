@@ -4,4 +4,4 @@
 Nome: Milena da Silva Rosa nº: 18
 
 ## Assuntos
-HTML,CSS e Javascript
+HTML,CSS e JavaScript
