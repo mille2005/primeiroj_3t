@@ -67,10 +67,10 @@ function total(){
    for(let m = 1; m <= t; m++){
       r = (val * (1+ (ju/100)));
       val = r;
-      document.write("Mẽs" + m + "valor: " + moeda(r) + "<br>");
+     // document.write("Mẽs" + m + "valor: " + moeda(r) + "<br>");
    }
-   
-   document.write("O resultado é " + moeda (r));
+   document.getElementById("total").innerHTML = "Total: "+moeda(r);
+   //document.write("O resultado é " + moeda (r));
 }
 
 function soma(){
