@@ -9,12 +9,16 @@
     <script src="estudo.js"></script>
 </head>
 <body>
- Capital: <input id="valor" type="text"> <br>
- Juros (mensais): <input id="juros" type="text"> <br>
-
- Nr. Meses: <input id="meses" type="text"> <br>
- 
- <button onclick="total()"> OK </button>
+    <div class="calculadora">  
+        <span id="total">Totaḷ: 0,00</span> <br>
+        Capital: <input id="valor" type="text"> <br>
+        Juros (mensais): <input id="juros" type="text"> <br>
+        Nr. Meses: <input id="meses" type="text"> <br>
+        <button id="btnCalc" onclick="total()"> Calcular </button>
+    </div>
+    <div>
+        <span id="listaMes">Meses</span>
+    </div>
 
  <br><br><br><br>
  <span id="resultado"></span><br>
@@ -27,6 +31,11 @@ Valor 2: <input id="v2" type="text"><br>
 
 </body>
 </html>
+
+
+
+
+
 
 
 
